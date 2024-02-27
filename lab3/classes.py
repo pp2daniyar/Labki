@@ -1,5 +1,5 @@
 #Exercise 1
-class getstring:
+'''class getstring:
     def _init_(self):
         self.str1=""
     def getstring(self):
@@ -9,7 +9,7 @@ class getstring:
 str1 =getstring()
 str1.getstring()
 str1.printstring()
-
+'''
 #Exercise 2
 from math import *
 class shape:
@@ -39,7 +39,7 @@ nRectangle = Rectangle()
 nRectangle.area()
 
 #Exercise 4
-class Point():
+'''class Point():
    def __init__(self):
      a = float(input())
      b = float(input())
@@ -89,4 +89,4 @@ a.display()
 # Exercise 6
 numbers = list(map(int, input().split()))
 result = list(filter(lambda x: all(x % i != 0 for i in range(2, x)), numbers))
-print(result)
+print(result)'''
